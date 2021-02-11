@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Grocery List</title>
+   <link rel="stylesheet" href="style.css">
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+   <div class="container">
+      <!-- ADD GROCERY ITEMS -->
+      <section class="add-grocery-items">
+         <div class="feedback"></div>
+         <h1>Add Grocery Items</h1>
+         <form id="form">
+            <input type="text" class="text" placeholder="Add text..."> 
+            <button type="submit" class="btn submit">Submit Here</button>
+         </form>
+      </section>
+      <!-- GROCERY ITEMS -->
+      <section class="grocery-items">
+         <h1>grocery Items</h1>
+         <ul class="list-items"></ul>
+         <button class="btn clear-items">Clear Items</button>
+      </section>
+      <p>Coded by Youness Atari &copy; 2020</p>
+   </div>
+   
+   <script src="app.js"></script>
+</body>
+</html>
